@@ -7,7 +7,6 @@ class Job():
     """
         Creates a Job objects.
         **kwargs:
-            job_id: A unique identifier for the job.
             post_date: Period since job was posted.
             title: The title of the job.
             url: url linking to this specific job.
@@ -25,7 +24,6 @@ class Job():
             Returns:
                 Object
         """
-        self.job_id = kwargs['job_id']
         self.post_date = kwargs['post_date']
         self.title = kwargs['title']
         self.url = kwargs['url']
